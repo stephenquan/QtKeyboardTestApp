@@ -61,11 +61,6 @@ Window {
                         width: parent.width
                         font.pointSize: styles.textPointSize
                         selectByMouse: true
-
-                        onAccepted: {
-                            // Qt.inputMethod.reset(); // WORKAROUND
-                            textInput2.forceActiveFocus();
-                        }
                     }
                 }
 
@@ -88,11 +83,6 @@ Window {
                         width: parent.width
                         font.pointSize: styles.textPointSize
                         selectByMouse: true
-
-                        onAccepted: {
-                            // Qt.inputMethod.reset(); // WORKAROUND
-                            textEdit.forceActiveFocus();
-                        }
                     }
                 }
 
